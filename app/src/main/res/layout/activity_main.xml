@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.sqlite.MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name"/>
+        <EditText
+            android:id="@+id/FirstName"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Name"/>
+        <EditText
+            android:id="@+id/LastName"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"/>
+        <EditText
+            android:id="@+id/Phone"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/insertBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Insert"/>
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"/>
+        <Button
+            android:id="@+id/showBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID" />
+    <EditText
+        android:id="@+id/idText"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update" />
+
+    <Button
+        android:id="@+id/deleteIdBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete by id" />
+</LinearLayout>
+</LinearLayout>
